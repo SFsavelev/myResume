@@ -1,0 +1,94 @@
+<!DOCTAPE html>
+<html>
+<head>
+<meta charset="uft-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>myResume</title>
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+<header>
+
+<div class="foto">
+	 <img src="image/face.jpg" alt="face" title="Face foto">
+</div>
+
+	<h1>Resume Savelyeva Sergea Fedorovicha</h1>
+</header>
+
+<div class="contact">
+	<img src="image/contact.svg" alt="Contact info" title="Contact info">
+	<p>tel: +8913-000-35-03<br>
+	Telegram: @SergeyImba<br></p>
+	<p>
+		<a href="https://www.google.com/"><b>email: Sergey-Savelev22@mail.ru</b></a>
+	</p>
+</div>
+
+<div class="about">
+	<img src="image/about_me.svg" alt="About me" title="About me">
+
+    <p>С детства мечтаю стать программистом.<br>
+    Жалко, что не смог начать раньше.<br>
+    Я хочу стать младшим фронтенд-разработчиком и,<br>
+    через некоторое время дороже для старшего front-end разработчика.<br>
+    Я имею в виду математический склад ума и развитую логику.<br>
+    Стараюсь быстро изучить все новое, что необходимо для работы.<br>
+    Мне нравится постоянно развиваться и добиваться поставленных целей.</p> 
+
+</div>
+
+<div class="skills">
+	<img src="image/skils.svg" alt="My skils" title="My skils">
+	<p>My skills:</p>
+
+<ul>
+   <li>JavaScript - я понимаю объект, функцию, прототип, обещание, класс, замыкания и т.д;</li>
+   <li>Знаком с принципами ООП;</li>
+   <li>HTML;</li>
+   <li>CSS;</li>
+   <li>GIT;</li>
+   <li>Figma;</li>
+</ul>
+</div>
+
+<div class="code">
+    <img src="image/example_code.svg" alt="Example code" title="Example code">
+    <div class="codes"><code>function isPalindrome(line) {
+    return line == String(line).split("").reverse().join("")?true:false
+} 
+
+let removeChar = str => str.split("").splice(1).slice(0, -1).join("") 
+
+function createMessage(...args) {
+    return function(...arg2) {
+        if(arg2[0]){
+            return createMessage.apply(this, args.concat(...arg2));
+        }
+    return args.reduce((a, b) => {return a + " " + b})       
+    }
+};</code>
+</div>	
+</div>
+
+<div class="expiriens">
+	<img src="image/expirience.svg" alt="Expirience" title="Expirience">
+	<p>Нет опыта</p>
+</div>
+
+<div class="education">
+	<img src="image/education.svg" alt="Education" title="Education">
+	<p>2007<br>
+Куйбышевский сельскохозяйственный техникум<br>
+Механизация сельскохозяйственной техники, Механика</p>
+</div>
+
+<div class="footer">
+  <p><a href="#top">На вверех</a></p>
+  <p>Create by Sergey Savelyev</p>
+</div>
+
+<script src="myCod.js"></script>
+</body>
+</html>
